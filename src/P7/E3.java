@@ -9,7 +9,7 @@ public class E3 {
         num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese hasta cuanto quiere contar"));
 
         for (int i=0; i<=num; i++){
-            JOptionPane.showMessageDialog(null, "Contador: " + i);
+            JOptionPane.showMessageDialog(null, "Contador: "+i);
         }
     }
 }
