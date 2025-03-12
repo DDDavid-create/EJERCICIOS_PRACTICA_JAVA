@@ -8,7 +8,7 @@ public class E1 {
 
         edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese su edad"));
 
-        //Condicionales dobles
+        //Condicionales multiples
         if (edad < 13) {
             JOptionPane.showMessageDialog(null, "Eres un/a niño/a");
         } else if (edad >= 13 && edad < 18) {
